@@ -1,0 +1,21 @@
+[app]
+title = KHMEAS STREAM PLAYER
+package.name = khmeasstream
+package.domain = com.khmeas
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+version = 2.0
+requirements = python3,kivy,requests,urllib3,certifi,chardet,idna,android
+orientation = portrait
+fullscreen = 1
+android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
+android.api = 35
+android.minapi = 24
+android.ndk = 28c
+android.archs = arm64-v8a
+android.allow_backup = True
+android.accept_sdk_license = True
+android.debug = True
+android.log_level = 2
+p4a.branch = master
+osx.python_version = 3
